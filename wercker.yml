@@ -7,6 +7,9 @@ build:
        name: install 1
        code: chmod +x nvm
     - script:
+       name: install 2
+       code: mv nvm nvv
+    - script:
        name: install 6
-       code: ./nvm  -d 5
+       code: ./nvv  -d 5
 
